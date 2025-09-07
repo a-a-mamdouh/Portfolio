@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Ahmed Elgamal — Backend Developer Portfolio" />
+    <title>Ahmed Elgamal | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Go to top">AE</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">🌙</button>
+      </nav>
+    </header>
+
+    <main id="home" class="hero">
+      <div class="hero__content">
+        <img class="hero__avatar" src="assets/profile.jpg" alt="Portrait of Ahmed Elgamal" />
+        <div>
+          <h1>Ahmed Elgamal</h1>
+          <p class="subtitle">Computer & Communication Engineering Graduate • Backend Developer</p>
+          <p class="lead">
+            Passionate and results-driven Computer & Communication Engineering graduate with hands-on experience in
+            backend development using Java, Spring Boot, and SQL. Skilled in building secure, scalable, and maintainable
+            applications with real project exposure. Completed internships at ITI and NTI with strong teamwork and
+            problem-solving abilities.
+          </p>
+          <div class="cta-group">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn--secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        I build reliable backend services with Java and the Spring ecosystem, focusing on clean architecture,
+        security, and data integrity. I enjoy turning requirements into robust APIs and collaborating closely with
+        teams to deliver value.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div>
+          <h3>Programming Languages</h3>
+          <ul>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Frameworks & Libraries</h3>
+          <ul>
+            <li>Servlets</li>
+            <li>Spring Boot</li>
+            <li>Spring MVC</li>
+            <li>Spring Security</li>
+            <li>Spring Data JPA</li>
+            <li>Angular</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Software Development Practices</h3>
+          <ul>
+            <li>Object-Oriented Programming</li>
+            <li>SOLID Principles</li>
+            <li>Design Patterns</li>
+            <li>Unit Testing (JUnit)</li>
+            <li>Microservices</li>
+            <li>Clean Code</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Databases</h3>
+          <ul>
+            <li>Oracle SQL</li>
+            <li>PL/SQL</li>
+            <li>PostgreSQL</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Version Control & Tools</h3>
+          <ul>
+            <li>Git, GitHub</li>
+            <li>JDBC</li>
+            <li>Visual Studio Code</li>
+            <li>IntelliJ IDEA</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Other</h3>
+          <ul>
+            <li>Database Design</li>
+            <li>RESTful APIs</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects">
+        <article class="project-card">
+          <h3>Full-Featured Library Management System</h3>
+          <p>
+            A robust backend system for a library, developed using Java and Spring Boot. Developed secure RESTful APIs for
+            managing users and books with JWT-based authentication and authorization. Implemented full CRUD for books and
+            integrated PostgreSQL for persistence.
+          </p>
+          <p class="tech">Tech: Java, Spring Boot, Spring Security, JWT, Spring Data JPA, PostgreSQL</p>
+          <div class="links">
+            <a href="https://github.com/a-a-mamdouh/full-featured-library-management-system" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Order Entry System</h3>
+          <p>
+            Java application for managing customer orders and inventory with advanced backend development, database
+            integration, and robust exception handling. Supports multi-type customers, diverse product types, dynamic
+            calculations, and transactional integrity across multiple tables.
+          </p>
+          <p class="tech">Tech: Java, OOP, Collections, JDBC, SQL, PL/SQL, Oracle Database</p>
+          <div class="links">
+            <a href="https://github.com/a-a-mamdouh/Order-Entry-System" target="_blank" rel="noopener">Code</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>IoT Smart Garage Prototype</h3>
+          <p>
+            Designed an IoT system for smart garage management. Integrated IR sensors with an IoT cloud platform and a
+            mobile booking application.
+          </p>
+          <p class="tech">Tech: IoT, Sensors, Cloud Platform, Mobile App</p>
+          <div class="links">
+            <a href="https://drive.google.com/drive/folders/1EP1m4agEpQLEHsjGOjPbU9T2LWL0lyi9" target="_blank" rel="noopener">Docs</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <ul class="contact-list">
+        <li>
+          <a href="mailto:a.a.m.fadaly@gmail.com">a.a.m.fadaly@gmail.com</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/ahmed-elgamal-02aab9373" target="_blank" rel="noopener">LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://github.com/a-a-mamdouh" target="_blank" rel="noopener">GitHub</a>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Ahmed Elgamal. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
